@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+ background-color: #6D8436;   
+ position: relative;
+}
+
+nav {
+    background-color: #A4240E;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 35px;
+    padding-left: 920px;
+    padding-top: 30px;
+    font-family: "Song Myung";
+    font-size: 17px;
+}
+
+header img {
+    height: 450px;
+    position: absolute;
+    top: -70px;
+    left: -50px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    position: relative;
+}
+
+main img {
+    position: absolute;
+    top: -130px;
+    left: -30px;
+}
+
+.linha-verde{
+    background-color: #446A36;
+    margin-top: 55px;
+    height: 65px;
+    width: 100%;
+}
+
+.linha-verde p {
+    font-family: "Ultra";
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.bloco-verde {
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    background-color: #446A36;
+    padding: 20px;
+    width: 700px;
+    margin: 20px auto;
+    height: 500px;
+}
+
+.item-escolhido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.item-escolhido img {
+    width: 200px;
+    height: 100px;
+}
+
+.info-item {
+    flex-grow: 1;
+    padding: 0 20px;
+    margin-top: -40px;
+}
+
+.info-item p {
+    margin-left: 40px;
+    line-height: 30px;
+    color: white;
+    font-family: "Suwannaphum";
+    
+}
+
+.controle-quantidade {
+    display: flex;
+    align-items: center;
+}
+
+.controle-quantidade input {
+    text-align: center;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #e1e1e1;
+    color: black;
+}
+
+.controle-quantidade button {
+    background-color: #9e2a2b;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-finalizar {
+    background-color: #A4240E;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: "Suwannaphum";
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
